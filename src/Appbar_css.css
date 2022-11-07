@@ -1,0 +1,143 @@
+
+.HelpSupport {
+    min-height: 50vh;
+    margin: 2rem 0rem;
+}
+
+.HelpText {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.HelpText h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.Addr {
+    max-width: 52%;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.Helpandsupp img {
+    width: 22vw;
+}
+
+.Helpandsupp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmailIcon,
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+.mail {
+    margin-right: 20px;
+}
+
+.mail img {
+   
+    height: 20px;
+    margin-right: 6px;
+}
+
+.mail p {
+    margin: 0;
+}
+.HeroSection {
+    background: linear-gradient(0deg, #1c1b40, rgba(28, 27, 64, 0.3)), url("/public/background.jpg");
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HeroSectionText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    padding-left: 3rem;
+}
+
+.textWrap {
+    max-width: 90%;
+    line-height: 2;
+}
+
+.Technology {
+    width: 100%;
+}
+
+.img_css{
+    margin-left: 688px;
+    margin-top: -361px;
+    height: 274px;
+}
+.Technology {
+    width: 100%;
+}
+
+.TechLan {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(28, 27, 64, 0.9), rgb(28, 27, 64, 0.9)), url('');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.Languages {
+    display: grid;
+    width: 90%;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.LogoImg img {
+    width: 160px;
+}
+
+.techImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.techImg img {
+    transition: .6s;
+}
+
+.techImg img:hover {
+    transform: scale(1.2);
+}
+
+.techImg p {
+    color: white;
+}
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Addr{
+ margin-left: 156px;
+}
+.map iframe{
+    width: 100%;
+}
